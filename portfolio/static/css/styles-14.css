@@ -712,6 +712,7 @@ a.btn:hover {
   .portfolio-section .item-inner .content .meta {
     margin-bottom: 30px;
     max-width: 240px;
+    overflow: auto;
     text-overflow: ellipsis;
     white-space: normal;
   }
