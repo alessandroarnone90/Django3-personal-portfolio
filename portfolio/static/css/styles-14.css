@@ -705,14 +705,12 @@ a.btn:hover {
   .portfolio-section .item-inner .content .sub-title {
     font-size: 14px;
     max-width: 240px;
-    text-overflow: ellipsis;
-    white-space: normal;
+   
   }
   .portfolio-section .item-inner .content .meta {
     margin-bottom: 30px;
     max-width: 240px;
-    text-overflow: clip;
-    white-space: normal;
+  
   }
   .portfolio-section .item-inner .content .action {
     position: static;
