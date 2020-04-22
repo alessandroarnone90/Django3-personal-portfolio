@@ -702,7 +702,19 @@ a.btn:hover {
   .portfolio-section .item-inner .content {
     padding: 15px;
   }
-
+  .portfolio-section .item-inner .content .sub-title {
+    font-size: 60px;
+    max-width: 1750px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .portfolio-section .item-inner .content .meta {
+    margin-bottom: 30px;
+    max-width: 1750px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
   }
   .portfolio-section .item-inner .content .action {
     position: static;
