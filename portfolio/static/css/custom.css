@@ -4,8 +4,8 @@
 }
 
 .location{
- position: absolue;
- display: none; 
+ position: absolute;
+ display: block; 
 }
 
 @media all and (min-width: 768px){
@@ -14,7 +14,7 @@
   right: 0;
   top: 2px;
   color: #8a8a8a;
-  disply: block;
+  display: none;
 }
 
 

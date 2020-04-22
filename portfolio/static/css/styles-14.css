@@ -333,6 +333,7 @@ a.btn:hover {
   position: relative;
 }
 .timeline .location {
+  display:block;
   position: absolute;
   right: 0;
   top: 2px;
@@ -639,6 +640,9 @@ a.btn:hover {
 }
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
+
+
+
   .header .social {
     margin: 0 auto;
     text-align: center;
@@ -686,6 +690,11 @@ a.btn:hover {
   }
   .timeline .place {
     margin-bottom: 5px;
+  }
+
+  .timeline .location {
+
+    display:none;
   }
   .timeline .job-meta {
     position: static;
