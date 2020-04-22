@@ -705,15 +705,15 @@ a.btn:hover {
   .portfolio-section .item-inner .content .sub-title {
     font-size: 14px;
     max-width: 120px;
-    overflow: hidden;
+    overflow: scroll;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
   .portfolio-section .item-inner .content .meta {
     margin-bottom: 30px;
     max-width: 240px;
-    overflow: auto;
-    text-overflow: ellipsis;
+    overflow: scroll;
+    text-overflow: clip;
     white-space: normal;
   }
   .portfolio-section .item-inner .content .action {
